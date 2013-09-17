@@ -46,7 +46,7 @@ default:
   # This will only work in the PRODUCTION environment. To enable it change the property
   # below to "true".
   site_exception_notifications: "false"                         # Change to "true" to enable
-  site_exception_notifications_prefix: "[Mconf-Web Error]"      # Prefix added in the email subject
+  site_exception_notifications_prefix: "[Arrivuapps Webconfrence Error]"      # Prefix added in the email subject
   # Emails that should receive the notification. Use a space, comma of semi-colon to separate multiple emails.
   # Example: "my-email@server.com my-email2@server.com email3@server2.com"
   site_exception_notifications_recipients: ""

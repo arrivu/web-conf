@@ -27,7 +27,7 @@
 
          <!--<a id="logo" class="frontpage_logo" href="/"></a>-->
          <div id="frontpage_logo" class="<%= current_site.shib_enabled? ? 'federated' : '' %>">
-           <a href="/"><span class="title"><%= t('mconf') %></span><span class="beta"><%= t('beta') %></span></a>
+           <a href="/"><span class="title"><%= image_tag("/images/arrivu_logo.png" ,:style=>"width: 115px;") %></span><span class="beta"><%= "Web confrence" %></span></a>
          </div>
 
          <div class="div_login">
@@ -56,10 +56,6 @@
                </div>
                <div class="image">
                  <%= image_tag("logos/cafe-logo-transp.png", :size => '174x30') %>
-               </div>
-               <div class="description">
-                 <%= t('cafe.login_page.description').html_safe %>
-                 <% link_to(image_tag("icons/help.png",:title=>"",:size=>"16x16",:class=>"icon",:style=>"cursor:pointer").html_safe, login_path) %>
                </div>
              </div>
            <% end %>
@@ -95,7 +91,7 @@
     </span>
 
     <div id="frontpage_logo">
-      <a href="/"><span class="title"><%= t('mconf') %></span><span class="beta"><%= t('beta') %></span></a>
+      <a href="/"><span class="title"><%= image_tag("/images/arrivu_logo.png" ,:style=>"width: 115px;") %></span><span class="beta"><%= "Web confrence" %></span></a>
     </div>
     <div class="clearer"></div>
 

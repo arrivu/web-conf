@@ -311,13 +311,7 @@ a.login{
 #global-wrapper {
   width:100%;
   padding:0;
-  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-  box-shadow:inset 0px 1px 0px 0px #ffffff;
-  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #34618e), color-stop(1, #1F4A75) );
-  background:-moz-linear-gradient( center top, #34618e 5%, #1F4A75 100% );
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#34618e', endColorstr='#1F4A75');
-  background-color:#1F4A75;
+  background-color:black;
 }
 
 .banner{

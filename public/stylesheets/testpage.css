@@ -341,8 +341,8 @@ width:920px;
 background:none repeat scroll 0 0 #E1EEF5;
 }
 #global-wrapper {
-background:none repeat scroll 0 0 #244974;
-border-bottom:2px solid #0E3D74;
+background:none repeat scroll 0 0 black;
+border-bottom:2px solid black;
 }
 #global {
 padding:0.5em 0;
