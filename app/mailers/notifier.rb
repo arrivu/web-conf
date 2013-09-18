@@ -264,7 +264,7 @@ class Notifier < ActionMailer::Base
     @recipients = recipients
     @from = "#{ Site.current.name } <#{ Site.current.smtp_sender }>"
     @replyto = @from
-    @subject = I18n.t("vcc_mail_label").html_safe + " "
+    @subject = "Arrivu Webconfrence"
     @content_type ="text/html"
   end
 
