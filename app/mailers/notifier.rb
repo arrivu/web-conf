@@ -264,7 +264,7 @@ class Notifier < ActionMailer::Base
     @recipients = recipients
     @from = "#{ Site.current.name } <#{ Site.current.smtp_sender }>"
     @replyto = @from
-    @subject = "Arrivu Webconfrence"
+    @subject = "Arrivu:"
     @content_type ="text/html"
   end
 
