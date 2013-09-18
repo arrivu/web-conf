@@ -209,10 +209,10 @@ en:
     login: "Login using CAFe"
     login_page: 
       click_here_to_login: "click here to log in"
-      description: "Experimental test of access to Mconf using the federation CAFe"
+      description: "Experimental test of access to Webconf using the federation CAFe"
       description_small: "or you can log using the federation CAFe"
       more_about_cafe: "Learn more about CAFe"
-    login_tip: "Mconf is an experimental service in the federation CAFe. Click here to log in using the federation."
+    login_tip: "Webconf is an experimental service in the federation CAFe. Click here to log in using the federation."
   calendar: 
     my: "My Calendar"
     one: Calendar
@@ -519,7 +519,7 @@ en:
   fax: Fax
   feedback: 
     email: "%{email} sent the following feedback:"
-    note: "Help us improve Mconf. Please send your comments, problems and suggestions. We will try to answer as soon as possible."
+    note: "Help us improve Webconf. Please send your comments, problems and suggestions. We will try to answer as soon as possible."
     one: Feedback
     send: "Send feedback"
     send_us: "Send us feedback!"
@@ -672,7 +672,7 @@ en:
     part8: "2. Specify if you want to search in any space or in a particular space from the drop down list <b> Search in </b>"
     part9: "3. Choose the type of element from the drop down list <b> Find in </b>"
   help_title: 
-    about_vcc: "About Mconf"
+    about_vcc: "About Webconf"
     create_VC: "Creating a virtual congress"
     create_VM: "Creating a virtual meeting"
     create_event: "Creating an event"
@@ -807,7 +807,7 @@ en:
       other: E-mails
     emails_tip: "type a list of emails separated by commas"
     internal_message: "Internal message"
-    mconf_users: "Mconf users"
+    mconf_users: "Webconf users"
     message: Message
     names: Names
     names_tip: "type to search users"
@@ -868,7 +868,7 @@ en:
   logout: Logout
   manage: Manage
   mandatory_field: "Mandatory field"
-  mconf: Mconf
+  mconf: Webconf
   members: 
     one: "%{count} member"
     other: "%{count} members"
@@ -887,8 +887,8 @@ en:
     reply: "Reply to message"
     sent: 
       other: "Sent messages"
-    special1: "The Mconf platform will be down from Friday 17-Dec at 16:00 UTC until Saturday 18-Dec 16:00 UTC. Sorry for the inconveniences."
-    special2: "The Mconf Team"
+    special1: "The Webconf platform will be down from Friday 17-Dec at 16:00 UTC until Saturday 18-Dec 16:00 UTC. Sorry for the inconveniences."
+    special2: "The Webconf Team"
   moderatorPW: "Moderator Password"
   more: more...
   more_arrows: "more >>"
@@ -1103,9 +1103,9 @@ en:
       msg1: " prohibited this room from being saved:"
     identification:
       title: "You are accessing the room <span class='room_title'>%{room}</span>, identify yourself"
-      member: "I'm already member of Mconf"
+      member: "I'm already member of Webconf"
       next: "Next"
-      not_member: "I'm not member of Mconf yet"
+      not_member: "I'm not member of Webconf yet"
     identified:
       title: "You are accessing the room <span class='room_title'>%{room}</span>"
     invite: 
@@ -1115,10 +1115,10 @@ en:
       join_from_desktop: "In this page you can join the conference from a <b>desktop</b>. To join from a mobile device <a href=\"%{url}\">click here</a>."
       join_from_mobile: "In this page you can join the conference from a <b>mobile device</b>. To join from a desktop <a href=\"%{url}\">click here</a>."
       mobile: "Select this option to join from a <em>mobile device</em>."
-      mobile_details: "Available for Android devices. You have to install the application <a href=\"%{url}\">Mconf-Mobile</a> to use this option!"
+      mobile_details: "Available for Android devices. You have to install the application <a href=\"%{url}\">Webconf-Mobile</a> to use this option!"
       mobile_selected: "Access from a <em>mobile device</em>."
       mobile_selected_details: "Available for Android devices only."
-      mobile_download: "Click here to download Mconf-Mobile."
+      mobile_download: "Click here to download Webconf-Mobile."
       msg1: "Invitation to the meeting "
       name: "Name:"
       name_enter: "Enter your name."
@@ -1182,17 +1182,17 @@ en:
     one: Session
   shibboleth: 
     create: 
-      account_associated: "Your account '%{login}' was associated to your federated account! You can now log to this account in using either your Mconf credentials or your federated account."
-      account_created: "A new account with a random password was created for you and linked to your federated account. Both accounts can be used to log in this website. You won't need the Mconf password to login using the federation, but you can change your password go to the <a href=\"%{url}\">forgot password page</a>."
+      account_associated: "Your account '%{login}' was associated to your federated account! You can now log to this account in using either your Webconf credentials or your federated account."
+      account_created: "A new account with a random password was created for you and linked to your federated account. Both accounts can be used to log in this website. You won't need the Webconf password to login using the federation, but you can change your password go to the <a href=\"%{url}\">forgot password page</a>."
       data_error: "There was an error trying to access your information from the federation. Please contact us to solve the problem."
       existent_email: "There's already an account with your federated email (%{email}). If this account is yours, use the form below to associate it to your federated login. If you're having problems you may contact us or find help in the FAQ page."
       invalid_credentials: "Invalid account or password. Please, try again."
     login: 
       create_new_account: "Create a new account"
-      existing_account: "If you already have an account in Mconf, you can link your federated account to your Mconf account. Whenever you use the federation to log in, you will be using the Mconf account linked here."
+      existing_account: "If you already have an account in Webconf, you can link your federated account to your Webconf account. Whenever you use the federation to log in, you will be using the Webconf account linked here."
       link_to_this_account: "Link to this account"
-      new_account: "If you don't have an account in Mconf yet, click in the button below to automatically create a new one using your CAFe account information."
-      title: "Your federated account is not yet associated to any Mconf account. Select one of the options below:"
+      new_account: "If you don't have an account in Webconf yet, click in the button below to automatically create a new one using your CAFe account information."
+      title: "Your federated account is not yet associated to any Webconf account. Select one of the options below:"
   show: Show
   show_advanced_editor: "Show advanced editor"
   show_list_version_arrows: "show list version >>"
@@ -1291,7 +1291,7 @@ en:
     join: "Join this space"
     join_invitation: 
       clarify_registered: "Please introduce password in order to join this space."
-      clarify_unregistered: "Please introduce your full name and a password in order to register onto the Mconf and join this space."
+      clarify_unregistered: "Please introduce your full name and a password in order to register onto the Webconf and join this space."
     join_pending: "Join request being processed"
     leave: "Leave this space"
     logo: "Space Logo"
@@ -1523,7 +1523,7 @@ en:
     search: "Search Users..."
     timezone: Timezone
     updated: "User updated successfully"
-    vcc_email: "Mconf user email %{dir}"
+    vcc_email: "Webconf user email %{dir}"
     view_expanded_posts: "Show messages in wall with the expanded view by default"
     your_webconf_room_is: "Your webconference room will be:"
   username: Username
@@ -1533,9 +1533,9 @@ en:
     message: "Use your vCard to automatically fill in your profile"
     upload: "Upload your vCard"
     use: "Use your vCard"
-  vcc: Mconf
-  vcc_mail_label: "[Mconf]"
-  vcc_registration: "Mconf Registration"
+  vcc: Webconf
+  vcc_mail_label: "[Webconf]"
+  vcc_registration: "Webconf Registration"
   version: 
     new: "New version"
     one: Version
